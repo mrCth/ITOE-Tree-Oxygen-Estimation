@@ -79,11 +79,16 @@ sources).
 
 ## Key outputs (from the corrected pipeline)
 
-- Trees with valid annual O₂ estimate: **5,863** (34 synthetic rows excluded)
-- Total annual oxygen-equivalent: **472,202.59 kg/yr**
-- One-at-a-time sensitivity (baseline ρ=0.6, cf=0.47, NPP=0.05):
-  wood density 0.4–0.8 → −32.68 % / +32.42 %, carbon fraction 0.45–0.50 →
-  −4.26 % / +6.38 %, NPP 0.025–0.10 → −50.0 % / +100.0 %.
+* Trees with valid annual O₂ estimate: **5,863** (34 synthetic rows excluded)
+* Total annual oxygen-equivalent: **472,202.59 kg/yr**
+* Deterministic one-at-a-time parameter-sensitivity analysis (baseline ρ=0.6, cf=0.47, NPP=0.05):
+
+  * wood density 0.4–0.8 → −32.68% / +32.42%
+  * carbon fraction 0.45–0.50 → −4.26% / +6.38%
+  * NPP fraction 0.025–0.10 → −50.0% / +100.0%
+
+These ranges represent **deterministic parameter-sensitivity results under the tested scenarios**. They are not statistical confidence intervals or prediction intervals. See `outputs/sensitivity/SENSITIVITY_AUDIT.md` for the full source trace, validation checks, and reproducibility details.
+
 
 See `outputs/sensitivity/SENSITIVITY_AUDIT.md` for the full trace.
 
