@@ -1,0 +1,46 @@
+# Datasets (not part of this release)
+NeonTreeEvaluation/
+reforestree_dataset/
+dataset/
+
+# Model weight artifacts
+models/
+lightning_logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Logs / run artifacts
+*.log
+*.bat
+*.bak
+crash.log
+run_output.txt
+stderr.txt
+stdout.txt
+
+# Local / environment
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated / debug outputs (kept outputs are listed explicitly)
+outputs/masks/
+outputs/visualizations_v1/
+outputs/visualizations_v3/
+outputs/evaluation*/
+outputs/diagnose*/
+outputs/debug/
+outputs/paper_figures/reforestree_candidates/
+outputs/paper_figures/dataset_samples/
+outputs/9ad*.jfif
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,148 @@
+{
+  "baseline": {
+    "source": "C:\\Users\\PC\\Downloads\\camptreeO2\\outputs\\tree_oxygen.csv",
+    "rows": 5863,
+    "total_o2_kg_year": 472202.5923,
+    "mean_o2_kg_tree_year": 80.539415,
+    "median_o2_kg_tree_year": 14.8385,
+    "parameters": {
+      "wood_density_g_cm3": 0.6,
+      "carbon_fraction": 0.47,
+      "npp_fraction": 0.05,
+      "carbon_to_o2_ratio": 2.6666666666666665,
+      "chave_exp": 0.976
+    }
+  },
+  "validation": {
+    "synthetic_excluded": 34,
+    "agb_explicit_recompute": {
+      "max_rel_diff_pct": 44.4677,
+      "mean_rel_diff_pct": 0.0464,
+      "frac_rows_rel_gt_1pct": 0.0,
+      "total_stored_agb_kg": 7535147.73,
+      "total_recompute_agb_kg": 7535147.48
+    }
+  },
+  "scenarios": [
+    {
+      "parameter": "wood_density",
+      "parameter_value": 0.4,
+      "baseline_value": 0.6,
+      "total_o2_kg_year": 317880.069,
+      "mean_o2_kg_tree_year": 54.218,
+      "median_o2_kg_tree_year": 9.989,
+      "percent_change_from_baseline": -32.6814,
+      "n_trees": 5863
+    },
+    {
+      "parameter": "wood_density",
+      "parameter_value": 0.5,
+      "baseline_value": 0.6,
+      "total_o2_kg_year": 395227.787,
+      "mean_o2_kg_tree_year": 67.411,
+      "median_o2_kg_tree_year": 12.42,
+      "percent_change_from_baseline": -16.3012,
+      "n_trees": 5863
+    },
+    {
+      "parameter": "wood_density",
+      "parameter_value": 0.6,
+      "baseline_value": 0.6,
+      "total_o2_kg_year": 472202.592,
+      "mean_o2_kg_tree_year": 80.539,
+      "median_o2_kg_tree_year": 14.838,
+      "percent_change_from_baseline": 0.0,
+      "n_trees": 5863
+    },
+    {
+      "parameter": "wood_density",
+      "parameter_value": 0.7,
+      "baseline_value": 0.6,
+      "total_o2_kg_year": 548868.66,
+      "mean_o2_kg_tree_year": 93.616,
+      "median_o2_kg_tree_year": 17.248,
+      "percent_change_from_baseline": 16.2358,
+      "n_trees": 5863
+    },
+    {
+      "parameter": "wood_density",
+      "parameter_value": 0.8,
+      "baseline_value": 0.6,
+      "total_o2_kg_year": 625271.414,
+      "mean_o2_kg_tree_year": 106.647,
+      "median_o2_kg_tree_year": 19.649,
+      "percent_change_from_baseline": 32.4159,
+      "n_trees": 5863
+    },
+    {
+      "parameter": "carbon_fraction",
+      "parameter_value": 0.45,
+      "baseline_value": 0.47,
+      "total_o2_kg_year": 452108.865,
+      "mean_o2_kg_tree_year": 77.112,
+      "median_o2_kg_tree_year": 14.207,
+      "percent_change_from_baseline": -4.2553,
+      "n_trees": 5863
+    },
+    {
+      "parameter": "carbon_fraction",
+      "parameter_value": 0.47,
+      "baseline_value": 0.47,
+      "total_o2_kg_year": 472202.592,
+      "mean_o2_kg_tree_year": 80.539,
+      "median_o2_kg_tree_year": 14.838,
+      "percent_change_from_baseline": 0.0,
+      "n_trees": 5863
+    },
+    {
+      "parameter": "carbon_fraction",
+      "parameter_value": 0.5,
+      "baseline_value": 0.47,
+      "total_o2_kg_year": 502343.183,
+      "mean_o2_kg_tree_year": 85.68,
+      "median_o2_kg_tree_year": 15.786,
+      "percent_change_from_baseline": 6.383,
+      "n_trees": 5863
+    },
+    {
+      "parameter": "npp_fraction",
+      "parameter_value": 0.025,
+      "baseline_value": 0.05,
+      "total_o2_kg_year": 236101.296,
+      "mean_o2_kg_tree_year": 40.27,
+      "median_o2_kg_tree_year": 7.419,
+      "percent_change_from_baseline": -50.0,
+      "n_trees": 5863
+    },
+    {
+      "parameter": "npp_fraction",
+      "parameter_value": 0.05,
+      "baseline_value": 0.05,
+      "total_o2_kg_year": 472202.592,
+      "mean_o2_kg_tree_year": 80.539,
+      "median_o2_kg_tree_year": 14.838,
+      "percent_change_from_baseline": 0.0,
+      "n_trees": 5863
+    },
+    {
+      "parameter": "npp_fraction",
+      "parameter_value": 0.075,
+      "baseline_value": 0.05,
+      "total_o2_kg_year": 708303.888,
+      "mean_o2_kg_tree_year": 120.809,
+      "median_o2_kg_tree_year": 22.258,
+      "percent_change_from_baseline": 50.0,
+      "n_trees": 5863
+    },
+    {
+      "parameter": "npp_fraction",
+      "parameter_value": 0.1,
+      "baseline_value": 0.05,
+      "total_o2_kg_year": 944405.185,
+      "mean_o2_kg_tree_year": 161.079,
+      "median_o2_kg_tree_year": 29.677,
+      "percent_change_from_baseline": 100.0,
+      "n_trees": 5863
+    }
+  ]
+}
